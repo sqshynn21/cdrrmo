@@ -1,0 +1,120 @@
+.table{
+    height: 500px;
+    overflow: auto;
+    margin-right: 0.2rem;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px;
+    margin-right: 0.5rem;
+    background-color: rgb(226, 225, 224);
+}
+.header p{
+    color: black;
+}
+button{
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+}
+td button:nth-child(1){
+    background-color: rgb(4, 134, 67);
+}
+td button:nth-child(2){
+    background-color: rgb(21, 43, 204);
+}
+td button:nth-child(3){
+    background-color: rgb(203, 0, 0);
+}
+.search{
+    border: 1px solid #ccc;
+   background-color: white;
+    height: 40px;
+    display: flex;
+    overflow-x: hidden;
+
+}
+.search i{
+    display: inline-block;
+    color: rgb(252, 252, 252);
+    padding-right: 0.2rem;
+    font-size: 1rem;
+}
+.search button{
+    background: rgb(255, 77, 32);
+    height: 40px;
+    width:40px;
+    border-radius: 0;
+}
+.search input{
+    height: 100%;
+    width: 100%;
+    padding: .2rem;
+    border: none;
+    transition: 2s;
+    outline: none;
+}
+.add button{
+    padding: 10px 20px;
+    background: rgb(245, 77, 25);
+}
+.add button a{
+    color: white;
+}
+
+::placeholder{
+    color: rgb(0, 0, 0);
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+input{
+    padding: 10px 20px;
+    margin: 0 10px;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    color: rgb(0, 0, 0);
+}
+thead th{
+    position: sticky;
+    top: 0;
+    background: rgb(255, 101, 6);
+    color: white;
+    font-size: 10px;
+    margin-right: auto;
+}
+th, td{
+    border-bottom: 1px solid white;
+    padding: 10px 20px;
+    word-break: break-all;
+    text-align: center;
+}
+tbody td{
+    font-size: 10px;
+}
+tr:hover td{
+    color: rgb(247, 149, 13);
+    cursor: pointer;
+    background: white;
+}
+td button i{
+    color: white;
+}
+::-webkit-scrollbar{
+    height: 5px;
+    width: 5px;
+    visibility: hidden;
+}
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 6px white;
+}
+::-webkit-scrollbar-thumb{
+    box-shadow: inset 0 0 6px white;
+}
